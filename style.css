@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.oc {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.info {
+    margin: 5px 15px;
+    padding-left: 10px;
+}
+
+.info img {
+    height: 6in;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(rgb(37, 37, 76), rgb(82, 51, 93));
+    color: aliceblue;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+
+.info p {
+    font-weight: 400;
+    margin-bottom: 25px;
+}
