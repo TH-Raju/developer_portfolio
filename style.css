@@ -1,5 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0%;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .info {
@@ -21,7 +23,13 @@ section {
 
 .info img {
     height: 6in;
+    /* height: 100%; */
 
+}
+
+.im {
+    /* height: 100px; */
+    height: 100%;
 }
 
 a {
@@ -37,4 +45,15 @@ a {
 .info p {
     font-weight: 400;
     margin-bottom: 25px;
+}
+
+.tb {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.db {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
